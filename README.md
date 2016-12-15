@@ -1,4 +1,4 @@
-** Rowdy Orbit | 2am Bakery Website **
+**Rowdy Orbit | 2am Bakery Website**
 
 ---
 
