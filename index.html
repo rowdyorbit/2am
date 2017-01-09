@@ -3,153 +3,222 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
-  <title>Parallax Template - Materialize</title>
-
+  <title>2am Bakery | Where the Dough Rises</title>
+  <meta name="description" content="2am Bakery is a full service bakery located in west Baltimore.">
+  <meta name="keywords" content="bakery, cakes, cookies, pies, baltimore, bakery">
+  <!--Favicons-->
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" href="assets/img/favicon/favicon-32x32.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="assets/img/favicon/favicon-16x16.png" sizes="16x16">
+  <link rel="manifest" href="assets/img/favicon/manifest.json">
+  <link rel="mask-icon" href="assets/img/favicon/safari-pinned-tab.svg" color="#094252">
+  <link rel="shortcut icon" href="assets/img/favicon/favicon.ico">
+  <!--Theme Color-->
+  <meta name="theme-color" content="#EE6E73">
   <!-- CSS  -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link href="assets/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="assets/css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
 <body>
-  <nav class="white" role="navigation">
-    <div class="nav-wrapper container">
-      <a id="logo-container" href="#" class="brand-logo">Logo</a>
-      <ul class="right hide-on-med-and-down">
-        <li><a href="#">Navbar Link</a></li>
-      </ul>
 
-      <ul id="nav-mobile" class="side-nav">
-        <li><a href="#">Navbar Link</a></li>
-      </ul>
-      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+
+<!--hero with movie-->
+  <div id="index-banner" class="parallax-container pink no-pad-bot">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <br><br>
+        <h1 class="header center white-text text-darken-2 overlay mid">2am Bakery</h1>
+        <div class="row center">
+          <h5 class="header col s12 light"><i>#BreaktheShareRule</i></h5>
+
+        </div>
+        
+        <!--Order button-->
+
+        <div class="row center">
+          <a href="order.html" id="order-button-hero" class="btn-large waves-effect waves-light grey lighten-1">Order Now</a>
+        </div>
+        <br><br>
+        </div>
+      </div>
     </div>
+  </div>
+
+    <!--background image-->
+    <div class="parallax">
+      <!--video class="responsive-video" src="assets/img/hero_vid.mp4" loop autoplay muted></video-->
+    </div>
+
+<!-- Nav bar-->
+<div class="sticky row">
+  <nav class="white z-depth-0 hide-on-med-and-down col s12" role="navigation" id="nav">
+      <!--Desktop-->
+      <ul class="tabs-fixed-width center">
+        <li class="tab col s1"></li>
+        <li class="tab col s2"><a class="grey-text active" href="index.html">Home</a></li>
+        <li class="tab col s2"><a class="grey-text" href="about.html">About</a></li>
+        <li class="tab col s2"><a class="grey-text" href="eye_can.html">Eye Can BeMore</a></li>
+        <li class="tab col s2"><a class="grey-text" href="testimonials.html">Testimonials</a></li>
+        <li class="tab col s2"><a class="grey-text" href="order.html"><i class="material-icons tooltipped" data-position="bottom" data-delay="50" data-tooltip="Order">shopping_cart</i></a></li>
+        <li class="tab col s1"></li>
+      </ul>
   </nav>
-
-  <div id="index-banner" class="parallax-container">
-    <div class="section no-pad-bot">
-      <div class="container">
-        <br><br>
-        <h1 class="header center teal-text text-lighten-2">Parallax Template</h1>
-        <div class="row center">
-          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
-        </div>
-        <div class="row center">
-          <a href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Get Started</a>
-        </div>
-        <br><br>
-
-      </div>
-    </div>
-    <div class="parallax"><img src="assets/img/background1.jpg" alt="Unsplashed background img 1"></div>
-  </div>
-
-
-  <div class="container">
-    <div class="section">
-
-      <!--   Icon Section   -->
+</div>
+<!--Mobile bottom Nav-->
+<div class="sticky">
+  <nav class="white z-depth-0 hide-on-med-and-up show-on-medium pink lighten-4" role="navigation">
       <div class="row">
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center brown-text"><i class="material-icons">flash_on</i></h2>
-            <h5 class="center">Speeds up development</h5>
-
-            <p class="light">We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components. Additionally, we refined animations and transitions to provide a smoother experience for developers.</p>
-          </div>
-        </div>
-
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center brown-text"><i class="material-icons">group</i></h2>
-            <h5 class="center">User Experience Focused</h5>
-
-            <p class="light">By utilizing elements and principles of Material Design, we were able to create a framework that incorporates components and animations that provide more feedback to users. Additionally, a single underlying responsive system across all platforms allow for a more unified user experience.</p>
-          </div>
-        </div>
-
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center brown-text"><i class="material-icons">settings</i></h2>
-            <h5 class="center">Easy to work with</h5>
-
-            <p class="light">We have provided detailed documentation as well as specific code examples to help new users get started. We are also always open to feedback and can answer any questions a user may have about Materialize.</p>
-          </div>
-        </div>
+        <div class="col s2"><a class="grey-text center-align waves-effect waves-red" href="about.html">About</a></div>
+        <div class="col s5"><a class="grey-text center-align waves-effect waves-red" href="eye_can.html">Eye Can BeMore</a></div>
+        <div class="col s3"><a class="grey-text center-align waves-effect waves-red" href="testimonials.html">Testimonials</a></div>
+        <div class="col s2"><a class="grey-text center-align waves-effect waves-red" href="order.html"><i class="material-icons tooltipped" data-position="bottom" data-delay="50" data-tooltip="Order">shopping_cart</i></a></div>
       </div>
+  </nav>
+</div>
 
-    </div>
-  </div>
 
-
-  <div class="parallax-container valign-wrapper">
-    <div class="section no-pad-bot">
-      <div class="container">
-        <div class="row center">
-          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
-        </div>
-      </div>
-    </div>
-    <div class="parallax"><img src="assets/img/background2.jpg" alt="Unsplashed background img 2"></div>
-  </div>
-
-  <div class="container">
-    <div class="section">
-
+<!--About Section-->
+  <div class="section">
+    <div class="container">
       <div class="row">
-        <div class="col s12 center">
-          <h3><i class="mdi-content-send brown-text"></i></h3>
-          <h4>Contact Us</h4>
-          <p class="left-align light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque id nunc nec volutpat. Etiam pellentesque tristique arcu, non consequat magna fermentum ac. Cras ut ultricies eros. Maecenas eros justo, ullamcorper a sapien id, viverra ultrices eros. Morbi sem neque, posuere et pretium eget, bibendum sollicitudin lacus. Aliquam eleifend sollicitudin diam, eu mattis nisl maximus sed. Nulla imperdiet semper molestie. Morbi massa odio, condimentum sed ipsum ac, gravida ultrices erat. Nullam eget dignissim mauris, non tristique erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;</p>
-        </div>
+        <h3 class="header center-align">Lorem Ipsum</h3>
+          <p class="grey-text text-darken-3 lighten-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
       </div>
+    </div>
+  </div>
 
+<!--Share Rule Title-->
+
+  <div class="section">
+    <div class="container">
+      <div class="row">
+        <h5 class="header center"> <i>#BreakTheShareRule</i></h4>
+      </div>
+    </div>
+  </div>
+
+<!-- Rule Section 1-->
+<div class="section" id="rule1">
+  <div class="container">
+    <div class="row valign-wrapper">
+
+        <!--card-->
+        <div class="col s8 m7">
+          <div class="card">
+            <div class="card-image">
+              <img src="assets/img/cake1.jpg">
+              <span class="card-title black-text ">Rule #001</span>
+            </div>
+          </div>
+        </div>
+
+        <!--Testimonial-->
+        <div class="col s4 m4 valign">
+          <h5>"So good it'll make you cry"</h5>
+          <p class="right"><i>-Bret Micheals</i></p>
+        </div>
+
+    </div>
+  </div>
+</div>
+
+<!-- Text block -->
+  <div class="section white">
+    <div class="container">
+      <div class="row">
+        <p class="header center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
     </div>
   </div>
 
 
-  <div class="parallax-container valign-wrapper">
-    <div class="section no-pad-bot">
-      <div class="container">
-        <div class="row center">
-          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+<!-- Rules Section 2-->
+<div class="section" id="rule2">
+  <div class="container">
+    <div class="row valign-wrapper">
+
+        
+        <!--Testimonial-->
+        <div class="col s4 m4 valign">
+          <h5>"So good it'll make you cry"</h5>
+          <p class="right"><i>-Bret Micheals</i></p>
         </div>
+
+      <!--card-->
+        <div class="col s8 m7">
+          <div class="card">
+            <div class="card-image">
+              <img src="assets/img/cake1.jpg">
+              <span class="card-title black-text ">Rule #001</span>
+            </div>
+          </div>
+        </div>
+
+
+    </div>
+  </div>
+</div>
+
+<!-- Text block -->
+  <div class="section white">
+    <div class="container">
+      <div class="row">
+        <p class="header center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
       </div>
     </div>
-    <div class="parallax"><img src="assets/img/background3.jpg" alt="Unsplashed background img 3"></div>
   </div>
 
-  <footer class="page-footer teal">
+<!-- Rules Section 3-->
+<div class="section" id="rule3">
+  <div class="container">
+    <div class="row valign-wrapper">
+
+        <!--card-->
+        <div class="col s8 m7">
+          <div class="card">
+            <div class="card-image">
+              <img src="assets/img/cake1.jpg">
+              <span class="card-title black-text ">Rule #001</span>
+            </div>
+          </div>
+        </div>
+
+        <!--Testimonial-->
+        <div class="col s4 m4 valign">
+          <h5>"So good it'll make you cry"</h5>
+          <p class="right"><i>-Bret Micheals</i></p>
+        </div>
+
+    </div>
+  </div>
+</div>
+
+
+  <!--Footer-->
+
+  <footer class="page-footer pink accent-4">
     <div class="container">
       <div class="row">
         <div class="col l6 s12">
-          <h5 class="white-text">Company Bio</h5>
-          <p class="grey-text text-lighten-4">We are a team of college students working on this project like it's our full time job. Any amount would help support and continue development on this project and is greatly appreciated.</p>
-
-
+          <h5 class="white-text">2am Bakery</h5>
+          <p class="grey-text text-lighten-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         </div>
-        <div class="col l3 s12">
-          <h5 class="white-text">Settings</h5>
-          <ul>
-            <li><a class="white-text" href="#!">Link 1</a></li>
-            <li><a class="white-text" href="#!">Link 2</a></li>
-            <li><a class="white-text" href="#!">Link 3</a></li>
-            <li><a class="white-text" href="#!">Link 4</a></li>
-          </ul>
-        </div>
-        <div class="col l3 s12">
+        <!--Links-->
+        <div class="col l3 s12 right">
           <h5 class="white-text">Connect</h5>
           <ul>
-            <li><a class="white-text" href="#!">Link 1</a></li>
-            <li><a class="white-text" href="#!">Link 2</a></li>
-            <li><a class="white-text" href="#!">Link 3</a></li>
-            <li><a class="white-text" href="#!">Link 4</a></li>
+            <li><a class="white-text" href="index.html">Home</a></li>
+            <li><a class="white-text" href="about.html">About</a></li>
+            <li><a class="white-text" href="eye_can.html">Eye Can BeMore</a></li>
+            <li><a class="white-text" href="testimonials.html">Testimonials</a></li>
+            <li><a class="white-text" href="order.html">Order</a></li>
           </ul>
         </div>
       </div>
     </div>
     <div class="footer-copyright">
       <div class="container">
-      Made by <a class="brown-text text-lighten-3" href="http://materializecss.com">Materialize</a>
+      <a class="white-text" href="http://madewithloveinbaltimore.org">Made with &hearts; in Baltimore</a> A work of <a class="white-text" href="https://www.rowdyorbit.com">Greater > Than. A Rowdy Orbit Initiative in partnership with Core Staffing </a>.
       </div>
     </div>
   </footer>
@@ -159,6 +228,9 @@
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="assets/js/materialize.js"></script>
   <script src="assets/js/init.js"></script>
-
+  <script src="assets/js/stickyfill.min.js"></script>
+  <script type="text/javascript">
+    $('.sticky').Stickyfill();
+  </script>
   </body>
 </html>
