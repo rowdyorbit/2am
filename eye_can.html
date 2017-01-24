@@ -1,4 +1,4 @@
-<!DOCTYP<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -22,25 +22,35 @@
 
 <body>
   <!--hero with movie-->
-  <div id="index-banner" class="parallax-container pink no-pad-bot">
+  <div id="index-banner" class="parallax-container pink no-pad-bot hide-on-med-and-up">
     <div class="section no-pad-bot">
-      <div class="container"> <br><br>
-        <h1 class="header center white-text text-darken-2 overlay mid">2am Bakery</h1>
+      <div class="container">
+        <br><br>
+        <h1 class="header center white-text text-darken-2 overlay mid">Eye Can Be More</h1>
         <div class="row center">
-          <h5 class="header col s12 light"><i>#BreaktheShareRule</i></h5>
+          <h5 class="header col s12 light modal-trigger" href="#modal1"><i>Enroll Today</i></h5>
+
         </div>
+        
         <!--Order button-->
-        <div class="row center"> <a href="order.html" id="order-button-hero" class="btn-large waves-effect waves-light grey lighten-1">Order Now</a> </div> <br><br> </div>
+
+        <div class="row center">
+          <a href="#modal1" id="order-button-hero" class="btn-large waves-effect waves-light grey lighten-1 modal-trigger">Enroll Now</a>
+        </div>
+        <br><br>
+        </div>
+      </div>
     </div>
   </div>
-  </div>
-  <!--background image-->
-  <div class="parallax">
-    <!--video class="responsive-video" src="assets/img/hero_vid.mp4" loop autoplay muted></video-->
+
+  <div id="index-banner" class="parallax-container no-pad-bot hide-on-med-and-down">
+    <video class="responsive-video" autoplay loop muted controls>
+          <source src="assets/img/mp4/bakery.mp4" type="video/mp4">
+    </video>
   </div>
   <!-- Nav bar-->
-  <div class="sticky row">
-    <nav class="white z-depth-0 hide-on-med-and-down col s12" role="navigation" id="nav">
+<div class="sticky row">
+  <nav class="white z-depth-0 hide-on-med-and-down col s12" role="navigation" id="nav">
       <!--Desktop-->
       <ul class="tabs-fixed-width center">
         <li class="tab col s1"></li>
@@ -51,19 +61,109 @@
         <li class="tab col s2"><a class="grey-text" href="order.html"><i class="material-icons tooltipped" data-position="bottom" data-delay="50" data-tooltip="Order">shopping_cart</i></a></li>
         <li class="tab col s1"></li>
       </ul>
-    </nav>
-  </div>
-  <!--Mobile bottom Nav-->
-  <div class="sticky">
-    <nav class="white z-depth-0 hide-on-med-and-up show-on-medium pink lighten-4" role="navigation">
+  </nav>
+</div>
+<!--Mobile bottom Nav-->
+  <div class="white hide-on-med-and-up show-on-medium z-depth-0" role="navigation">
       <div class="row">
+        <div class="col s2"><a class="grey-text center-align waves-effect waves-red" href="index.html">Home</a></div>
         <div class="col s2"><a class="grey-text center-align waves-effect waves-red" href="about.html">About</a></div>
-        <div class="col s5"><a class="grey-text center-align waves-effect waves-red" href="eye_can.html">Eye Can BeMore</a></div>
+        <div class="col s3"><a class="grey-text center-align waves-effect waves-red" href="eye_can.html">Eye Can BeMore</a></div>
         <div class="col s3"><a class="grey-text center-align waves-effect waves-red" href="testimonials.html">Testimonials</a></div>
         <div class="col s2"><a class="grey-text center-align waves-effect waves-red" href="order.html"><i class="material-icons tooltipped" data-position="bottom" data-delay="50" data-tooltip="Order">shopping_cart</i></a></div>
       </div>
-    </nav>
   </div>
+
+  <!-- Title-->
+
+    <!--About Section-->
+  <div class="section">
+    <div class="container">
+      <div class="row">
+        <h3 class="header center-align">Lorem Ipsum</h3>
+          <p class="grey-text text-darken-3 lighten-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="row center hide-on-med-and-down">
+          <a href="#modal1" id="order-button-hero" class="btn-large waves-effect waves-light grey lighten-1 modal-trigger">Enroll Now</a>
+        </div>
+      <!--Video on Mobile-->
+
+    <div class="row hide-on-med-and-up">
+      <div class="col s12">
+      <h3 class="flow-text center-align">About Our Program</h3>
+        <!-- Side video embed -->
+        <video class="responsive-video" controls="true">
+          <source src="assets/img/mp4/bakery.mp4" type="video/mp4">
+        </video>
+      </div>
+    </div>
+
+
+
+      <div class="col s12">
+        <div class="section">
+          <blockquote class="twitter-tweet"><p lang="en" dir="ltr">40,000+ MD ex-offenders voted in their 1st election. Like this 2-time armed robbery convict, many released felons did more than vote <a href="https://twitter.com/CNSmd">@CNSmd</a> <a href="https://t.co/D4l9jEaOBe">pic.twitter.com/D4l9jEaOBe</a></p>&mdash; Michelle Chavez (@MichellePChavez) <a href="https://twitter.com/MichellePChavez/status/797210674338336768">November 11, 2016</a></blockquote> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </div>
+      </div>
+
+    </div> 
+
+
+ <!-- Learn More Submission Form-->
+    <div id="modal1" class="modal col s12 push-2">
+        <div data-target="modal1" class="modal-content">
+            <form class="col s12 m6" method="Post" action="https://formspree.io/joseph@corestaffing.us">
+                <div class="row">
+                    <div class="input-field col s12 m6">
+                        <i class="material-icons prefix">account_circle</i>
+                        <input id="icon_prefix" type="text" class="validate" name="name" required>
+                        <label for="icon_prefix">First Name</label>
+                    </div>
+                   <div class="input-field col s12 m6">
+                        <i class="material-icons prefix">account_circle</i>
+                        <input id="icon_prefix" type="text" class="validate" name="name" required="">
+                        <label for="icon_prefix">Last Name</label>
+                    </div>
+                    <div class="input-field col s12 m6">
+                        <i class="material-icons prefix">account_circle</i>
+                        <input id="icon_prefix" type="text" class="validate" name="name" required="">
+                        <label for="icon_prefix">Street Address</label>
+                    </div>
+                    <div class="input-field col s12 m6">
+                        <i class="material-icons prefix">phone</i>
+                        <input id="icon_telephone" type="tel" class="validate">
+                        <label for="icon_telephone">Telephone</label>
+                    </div>
+                      <div class="input-field col s12 m6">
+                        <i class="material-icons prefix">account_circle</i>
+                        <input id="icon_prefix" type="text" class="validate" name="name" required="">
+                        <label for="icon_prefix">City State Zip</label>
+                    </div>
+                    <div class="input-field col s12 m6">
+                        <input id="email" type="email" name="_replyto" class="validate" required>
+                        <label for="email">Email</label>
+                    </div>
+
+                    <div class="input-field col s12 m6">
+                      <i class="material-icons prefix">date_range</i>
+                      <input type="date" class="datepicker" required>
+                      <label>When can you start?</label>
+                    </div>
+                    <div class="modal-footer">
+                        <i class="modal-action modal-close waves-effect waves-green btn-flat special waves-input-wrapper" style=""><input class="waves-button-input" type="submit" name="Submit" value="Send"></i>
+                        <label for="Submit"></label></div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+
+
+
   <!--Footer-->
   <footer class="page-footer pink accent-4">
     <div class="container">
@@ -86,11 +186,6 @@
         </div>
       </div>
     </div>
-    <p> Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip
-      ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit
-      augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum
-      claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram,
-      anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum. </p>
     <div class="footer-copyright">
       <div class="container"> <a class="white-text" href="http://madewithloveinbaltimore.org">Made with &hearts; in Baltimore</a> A work of <a class="white-text" href="https://www.rowdyorbit.com">Greater > Than. A Rowdy Orbit Initiative in partnership with Core Staffing </a>.
         </div>
